@@ -1,0 +1,17 @@
+{
+  "name": "pia-manual-connections",
+  "version": "0.1.0",
+  "description": "cronjob to scrape PickNPull for new Hyundai Accents and send a Telegram message",
+  "main": "pnp-scraper-notifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0",
+    "puppeteer": "^23.3.0"
+  }
+}
